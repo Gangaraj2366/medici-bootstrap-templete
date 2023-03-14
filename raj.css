@@ -1,0 +1,143 @@
+*,p
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.685);
+
+}
+
+html,body
+{
+    width: 100%;
+}
+
+
+/* Second page css start */
+
+.main1-card
+{
+    position: relative;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.main1-card .main2-card
+{
+    position: relative;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main1-card .main2-card .main-card .card1
+{
+    position: relative;
+    margin: 5px;
+    margin-right: 20px;
+    border-radius: 5px;
+    width: 300px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.226);
+}
+
+.main1-card .main2-card .main-card .card1 .card-icon
+{
+    margin-bottom: -15px;
+}
+
+.main1-card .main2-card .main-card .card1 .card-icon i
+{
+    color: #3fbbc0;
+    font-size: 50px;
+    margin-top: 25px;
+    margin-left: 20px;
+    padding-top: 7px;
+    padding-bottom: 8px;
+}
+
+.main1-card .main2-card .main-card .card1 .card-content h3
+{
+    font-size: 19px;
+   padding-top: 5px;
+   padding-bottom: 15px;
+  letter-spacing: 0.5px;
+  margin-left: 20px;
+}
+
+.main1-card .main2-card .main-card .card1 .card-content p
+{
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.3px;  
+    margin-left: 20px; 
+    padding-bottom: 30px;
+}
+
+.main1-card .main2-card .main-card .card1 .card2
+{
+    position: absolute;
+    bottom: 0px;
+    overflow: hidden;
+    width: 320px;
+    background-color: #3fbbc0;
+    z-index: 10;
+    border-radius: 5px;
+    height: 0px;
+    width: 300px;
+    transition: height 0.4s;
+}
+
+.main1-card .main2-card .main-card .card1:hover .card2
+{
+    height: 100%;
+    width: 300px;
+}
+
+
+.main1-card .main2-card .main-card .card1 .card2 .card-icon1
+{
+    margin-bottom: -15px;
+}
+
+.main1-card .main2-card .main-card .card1 .card2 .card-icon1 i
+{
+    color: white;
+    font-size: 50px;
+    margin-top: 25px;
+    margin-left: 20px;
+    transition: 0.4s;
+}
+
+.main1-card .main2-card .main-card .card1 .card2 .card-content1 h3
+{
+    font-size: 19px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+   letter-spacing: 0.5px;
+   color: white;
+   margin-left: 20px;
+   transition: 0.4s;
+}
+
+.main1-card .main2-card .main-card .card1 .card2 .card-content1 p
+{
+    font-size: 16px;
+    color: white;
+    line-height: 25px;
+    letter-spacing: 0.3px;  
+    margin-left: 20px; 
+    padding-bottom: 30px;
+    transition: 0.4s;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,198 @@
+
+*,p
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.685);
+}
+
+html,body
+{
+    width: 100%;
+}
+
+/* Department content css start */
+
+.main-depart1
+{
+    border: 1px solid red;
+    position: relative;
+   margin: 5px;
+   margin-top: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.main-depart1 .main-depart2
+{
+    border: 1px solid red;
+    position: relative;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.main-depart1 .main-depart2 .depart-head
+{
+    border: 1px solid red;
+    position: relative;
+   margin: 5px; 
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 10px;
+   margin-top: 20px;
+   margin-left: 67px;
+   margin-right: 67px;
+}
+
+.main-depart1 .main-depart2 .depart-head h1
+{
+   font-size: 30px;
+   letter-spacing: 1px;
+   line-height: 25px;
+   padding-bottom: 15px;
+}
+.main-depart1 .main-depart2 .depart-head hr
+{
+ width: 80px;
+ height: 3.5px;
+ background-color: #3fbbc0;
+}
+.main-depart1 .main-depart2 .depart-head p
+{
+    font-size: 17px;
+    letter-spacing: 0.5px;
+    line-height: 25px;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.main-depart1 .main-depart2 .depart-body
+{
+    border: 1px solid red;
+    margin: 5px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-left: 70px;
+   margin-right: 70px;
+   margin-top: 10px;
+}
+
+.main-depart1 .main-depart2 .depart-body .depart-section
+{
+    border: 1px solid red;
+    width: 33%;
+}
+
+.main-depart1 .main-depart2 .depart-body .depart-section a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.main-depart1 .main-depart2 .depart-body .depart-section .depart-section1
+{
+    border: 1px solid red;
+   margin: 5px;
+   padding-top: 12px;
+   padding-bottom: 12px; 
+   border-left: 6px solid transparent; 
+}
+
+.main-depart1 .main-depart2 .depart-body .depart-section .depart-section1:hover
+{
+    border-left: 6px solid #3fbbc0;
+    background-color: #3fbcc031;
+}
+
+.main-depart1 .main-depart2 .depart-body .depart-section .depart-section1 h1
+{
+    font-size: 19px;
+    letter-spacing: 0.5px;
+    line-height: 25px;
+    padding-bottom: 5px;
+    padding-left: 18px;
+}
+
+.main-depart1 .main-depart2 .depart-body .depart-section .depart-section1:hover h1
+{
+    color: #3fbbc0;
+}
+
+.main-depart1 .main-depart2 .depart-body .depart-section .depart-section1 p
+{
+    font-size: 16px;
+   letter-spacing: 0.5px;
+   line-height: 25px;
+   padding-left: 18px;
+}
+
+.main-depart1 .main-depart2 .depart-body .depart-main-containt
+{
+    border: 1px solid blue;
+    margin: 5px;
+    width: 67%;
+    margin-top: -65px;
+}
+
+.main-depart1 .main-depart2 .depart-body .depart-main-containt .depart-containt-head h1
+{
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    line-height: 25px;
+    padding-bottom: 10px;
+    color: #3fbbc0;
+    padding-left: 10px;
+}
+.main-depart1 .main-depart2 .depart-body .depart-main-containt .depart-containt-head p
+{
+    font-size: 15.5px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    padding-left: 10px;
+}
+
+.main-depart1 .main-depart2 .depart-body .depart-main-containt .depart-image-box
+{
+    border: 1px solid red;
+    margin: 5px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.main-depart1 .main-depart2 .depart-body .depart-main-containt .depart-image-box .depart-image
+{
+    border: 1px solid red;
+    margin: 5px;
+    width: 35%;
+}
+
+.main-depart1 .main-depart2 .depart-body .depart-main-containt .depart-image-box .depart-image img
+{
+     width: 100%;
+}
+
+.main-depart1 .main-depart2 .depart-body .depart-main-containt .depart-image-box  .depart-image-containt
+{
+    border: 1px solid blue ;
+    margin: 5px; 
+    width: 65%;
+    margin-top: -145px;
+}
+
+.main-depart1 .main-depart2 .depart-body .depart-main-containt .depart-image-box  .depart-image-containt p
+{
+    font-size: 17px;
+    letter-spacing: 0.5px;
+    line-height: 22px;
+}
+
+/* Department content css end */
